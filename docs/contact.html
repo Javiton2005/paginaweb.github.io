@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <form action="/submit">
+        <div>
+            <label for="name">Enter your name</label>
+            <input type="text" name="name" id="name" required/>
+        </div>
+        <div>
+            <label for="email">Enter your mail</label>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="email">Enter your pasword</label>
+            <input type="password" name="password" id="pasword" required>
+        </div>
+
+        <label for="countries">Which country would you like to travel to?</label>
+        <select name="countries">
+            <option value="">Select a country</option>
+            <option value="france">France</option>
+            <option value="italy">Italy</option>
+            <option value="usa">USA</option>
+            <option value="brazil">Brazil</option>
+            <option value="japan">Japan</option>
+        </select>
+
+        <label>What pets do you have?</label>
+        <div>
+          <input type="checkbox" name="pets" id="cats" value="cats" />
+          <label for="cats">Cats</label>
+        </div>
+        <div>
+          <input type="checkbox" name="pets" id="dogs" value="dogs" />
+          <label for="dogs">Dogs</label>
+        </div>
+        <div>
+          <input type="checkbox" name="pets" id="frogs" value="frogs" />
+          <label for="frogs">Frogs</label>
+        </div>
+        <div>
+            <textarea name="textarea" cols="30" rows="10">hello world</textarea>
+        </div>
+        
+        <input type="submit" value="Send">
+
+    </form>
+
+</body>
+</html>
