@@ -1,3 +1,42 @@
-h1{
-    color: red;
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*
+#ids
+.clases
+a, divs... para ese tipo de contenedores
+*/
+.containers#cabecera{
+    background-color: antiquewhite;
+}
+
+.containers#cuerpo{
+    background-color: aquamarine;
+}
+
+#cabecera{
+    height: 135px;
+}
+
+#logotipo{
+    margin: 1%;
+    float: left;
+    width: 21%;
+}
+
+.logo{
+    width: 70%;
+}
+#links_cont{
+    float: right;
+    display: flex;
+    width: 77%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
 }
