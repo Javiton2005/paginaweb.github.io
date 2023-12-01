@@ -1,42 +1,25 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    padding: 0;
+    margin: 0;
 }
-/*
-#ids
-.clases
-a, divs... para ese tipo de contenedores
-*/
-.containers#cabecera{
-    background-color: antiquewhite;
-}
-
-.containers#cuerpo{
-    background-color: aquamarine;
-}
-
-#cabecera{
-    height: 135px;
-}
-
-#logotipo{
-    margin: 1%;
-    float: left;
-    width: 21%;
-}
-
-.logo{
-    width: 70%;
-}
-#links_cont{
-    float: right;
+body{
     display: flex;
-    width: 77%;
 }
+.box{
+    background-color: red;
+    width: 400px;
+    height: 400px;
 
+    margin-left: 200px;
+    padding-top: 100px;
+    padding-right: 100px;
+    border: 10px solid purple;
 
-a{
-    text-decoration: none;
-    color: black;
+    border-radius: 100px;
+    box-shadow: 10px 5px 5px red;
+}
+.text{
+    border-bottom: blue solid 1px;
+    padding-bottom: 10px;
+    /*text-decoration: green underline ;*/
 }
