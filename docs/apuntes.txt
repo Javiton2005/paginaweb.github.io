@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Hola buenas tardes</h1>
+    <a href="contact.html" target="_blank" style="color: red;" >Contact me</a>
+    <table>
+        <thead>
+          <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Nationality</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Matt</td>
+            <td>Delac</td>
+            <td>French</td>
+          </tr>
+          <tr>
+            <td>Amanda</td>
+            <td>Smith</td>
+            <td>American</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="box">
+    <p class="text">Hello World</p>
+  </div>
+  <div class="box">
+    <p class="text">Hello World</p>
+  </div>
+</body>
+</html>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+.box{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+
+    margin-left: 200px;
+    padding-top: 100px;
+    padding-right: 100px;
+    border: 10px solid purple;
+
+    border-radius: 100px;
+    box-shadow: 10px 5px 5px red;
+}
+.text{
+    border-bottom: blue solid 1px;
+    padding-bottom: 10px;
+    /*text-decoration: green underline ;*/
+}
