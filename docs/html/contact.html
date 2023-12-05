@@ -3,53 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact me</title>
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contactme.css">
 </head>
 <body>
-    <form action="/submit">
-        <div>
-            <label for="name">Enter your name</label>
-            <input type="text" name="name" id="name" required/>
+    <nav class="Navbar">
+        <div class="home">
+            <p class="text" id="home"><a href="../index.html"><img src="../img/13706.png" alt="../img/13706.png" class="imgIcon"></a> </p>
         </div>
-        <div>
-            <label for="email">Enter your mail</label>
-            <input type="text" name="email" id="email" required>
+        <div class="submenu">
+            <div class="about">
+                <a href="./about.html"><p class="text" id="about">About Me</p></a>
+            </div>
+            <div class="net">
+                <a href="./net.html"><p class="text" id="net">NET</p></a>
+            </div>
         </div>
-        <div>
-            <label for="email">Enter your pasword</label>
-            <input type="password" name="password" id="pasword" required>
+    </nav>
+    <div class="contenido">
+        <div class="title"><p>Contact Me</p></div>
+        <div class="enlaces" id="linkedin">
+            <a href="https://www.linkedin.com/in/javier-ant%C3%B3n-ord%C3%B3%C3%B1ez/" class="links" >
+                <img src="../img/Linkedin-Logo-Transparent.png" alt="Logotipo de Linkedin" id="logoLinkedin" class="imagen">
+                <h3 class="text-social">Javier Antón Ordóñez</h3>
+            </a>
         </div>
-
-        <label for="countries">Which country would you like to travel to?</label>
-        <select name="countries">
-            <option value="">Select a country</option>
-            <option value="france">France</option>
-            <option value="italy">Italy</option>
-            <option value="usa">USA</option>
-            <option value="brazil">Brazil</option>
-            <option value="japan">Japan</option>
-        </select>
-
-        <label>What pets do you have?</label>
-        <div>
-          <input type="checkbox" name="pets" id="cats" value="cats" />
-          <label for="cats">Cats</label>
+        <div class="enlaces" id="github">
+            <a href="https://github.com/Javiton2005" class="links" >
+                <img src="../img/github.png" alt="logotipo de GitHub" id="logoGithub" class="imagen">
+                <h3 class="text-social">@Javiton2005</h3>
+            </a>
         </div>
-        <div>
-          <input type="checkbox" name="pets" id="dogs" value="dogs" />
-          <label for="dogs">Dogs</label>
+        <div class="enlaces" id="mail">
+            <a href="mailto:9303039@ufv.alumnos.es" class="links" >
+                <img src="../img/mail.png" alt="Mail" id="logoMail" class="imagen">
+                <h3 class="text-social" >9303039@ufv.alumnos.es</h3>
+            </a>
         </div>
-        <div>
-          <input type="checkbox" name="pets" id="frogs" value="frogs" />
-          <label for="frogs">Frogs</label>
+        <div class="enlaces" id="discord">
+            <a href="https://discord.com/" class="links" >
+                <img src="../img/Discord_Logo_sans_texte.svg.png" alt="logo Discord" class="imagen">
+                <h3 class="text-social">Anton.</h3>
+            </a>
         </div>
-        <div>
-            <textarea name="textarea" cols="30" rows="10">hello world</textarea>
-        </div>
+        <div class="contenedor" id="formulario">
+            <h1>Contact whith me via this form</h1>
+            <form action="/submit" class="form">
+                <div>
+                    <label for="name">Enter your name</label>
+                    <input type="text" name="name" id="name" required/>
+                </div>
+                <div>
+                    <label for="email">Enter your mail</label>
+                    <input type="text" name="email" id="email" required>
+                </div>        
+                <label for="countries">where did you find this site?</label>
+                <select name="countries" id="section">
+                    <option value="">Select an option</option>
+                    <option value="france">Social Media</option>
+                    <option value="italy">Github</option>
+                    <option value="usa">Linkedin</option>
+                    <option value="brazil">A friend</option>
+                    <option value="japan">Other</option>
+                </select required>
+                <div id="cajadetexto">
+                    <textarea name="textarea" cols="30" rows="10">Write here you message</textarea required>
+                </div>
+                
+                <input type="submit" value="Send" id="sendbutton">
         
-        <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
 
-    </form>
+    <footer class="footer">
+        <div class="link" id="contact">
+            <a href="../html/contact.html">Contact me</a>
+        </div>
+        <div class="link" id="topic">
+            <a href="../html/topic.html">Topic</a>
+        </div>
+        <div class="link" id="index">
+            <a href="../index.html">Main</a>
+        </div>
+        <div class="link" id="degree">
+            <a href="../html/degree.html">Degree</a>
+        </div>
+        <div class="link" id="about">
+            <a href="../html/about.html">About me</a>
+        </div>
+        <div class="link" id="net">
+            <a href="../html/net.html">Net</a>
+        </div>
+    </footer>
+    
 
 </body>
 </html>
