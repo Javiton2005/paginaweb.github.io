@@ -66,18 +66,50 @@ nav{
     padding-right: 8.333333%;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: rgb(221, 221, 221);
 }
 .title{
     width: 100%;
-    color: #FFF;
+    color: rgb(221, 221, 221);
     font-family: 'Nova Square', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    margin-bottom: 20px;
 }
-
+.preguntas{
+    margin-bottom: 20px;
+}
+.respuestas{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#link:hover{
+    color: #956abb;
+}
+#link{
+    color: rgb(221, 221, 221);;
+}
+#titulo3{
+    margin-top: 15px;
+}
+.parrafo{
+    font-size: 20px;
+    width: 50%;
+    padding-right: 20px;
+}
+.explication{
+    display: flex;
+    width: 100;
+}
+#python{
+    width: 50%;
+}
+#img{
+    width:100%;
+}
 /*----------------------------*/
 footer{
     width: 100%;

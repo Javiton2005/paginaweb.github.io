@@ -61,6 +61,83 @@ nav{
     height: 60px;
 }
 /*------------------------------------------------------------------------------------*/
+.contenido#main{
+    padding-left: 8.333333%;
+    padding-right: 8.333333%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(221, 221, 221);
+}
+.title{
+    width: 100%;
+    color: #FFF;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.promocion{
+    text-align: center;
+    width: 100%;
+}
+
+.webs1{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.webs2{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+.webs3{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#web1{
+    margin-right: auto;
+    width: 48%;
+}
+#web2{
+    margin-left: auto;
+    width: 50%;
+}
+#web3{
+    margin-right: auto;
+    width: 48%;
+}
+#web4{
+    margin-left: auto;
+    width: 50%;
+}
+#web5{
+    margin-left: auto;
+    width: 100%;
+}
+#web1:hover{
+    background-color: #495669;}
+#web2:hover{
+    background-color: #495669;}
+#web3:hover{
+    background-color: #495669;}
+#web4:hover{
+    background-color: #495669;}
+#web5:hover{
+    background-color: #495669;
+}
+.web{
+    display: flex;
+}
+.img{
+    margin-left: auto;
+}
+/*----------------------------*/
 footer{
     width: 100%;
     height: 50px;

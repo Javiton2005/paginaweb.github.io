@@ -66,10 +66,11 @@ nav{
     padding-right: 8.333333%;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: rgb(221, 221, 221);
 }
 .title{
     width: 100%;
-    color: #FFF;
+    color: rgb(221, 221, 221);
     font-family: 'Nova Square', sans-serif;
     font-size: 36px;
     font-style: normal;
@@ -77,7 +78,22 @@ nav{
     line-height: normal;
     text-align: center;
 }
-
+.Pregunta{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: rgb(221, 221, 221);
+}
+/*------------------------------*/
+#course-summary > p, #course-summary > ul{
+    color: rgb(221, 221, 221);
+    font-size: 25px;
+    line-height: 1.5;
+}
+#specific-learning-outcomes >p,#specific-learning-outcomes>ul,h2{
+    color: rgb(221, 221, 221);
+    font-size: 25px;
+    line-height: 1.5;
+}
 /*----------------------------*/
 footer{
     width: 100%;
