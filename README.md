@@ -19,3 +19,7 @@ The most complicated thing i found out during the time i made this website is th
 
 another thing that i stragle it the most is how to resize the images inside divs that it is something cuit a bit tricky
  
+my work,i started with the about me page and you can notice that it is better done than the rest of them.
+In the topic page i talked about a theme that i'm traying to learn a lot this last couple of weeks automatization with python
+
+This is a harder work that what i thought, i ejoyed a lot, but next time i will designed better first and think everithing before startiung to code it
