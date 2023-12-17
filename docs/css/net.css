@@ -99,6 +99,7 @@ nav{
     width: 100%;
     font-size: 20px;
     margin-top: 20px;
+    margin-bottom: 160px;
 }
 #web1{
     margin-right: auto;
@@ -107,6 +108,7 @@ nav{
 #web2{
     margin-left: auto;
     width: 50%;
+    height: 100px;
 }
 #web3{
     margin-right: auto;
@@ -136,6 +138,7 @@ nav{
 }
 .img{
     margin-left: auto;
+    height: 100px;
 }
 /*----------------------------*/
 footer{

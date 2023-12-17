@@ -2,12 +2,15 @@
     margin: 0;
     border: 0;
 }
-a{
+.link{
     text-decoration: none;
-    color: black;
+    color: #000;
 }
 body{
     background-color: #000;
+}
+h1{
+    color: rgb(221, 221, 221);
 }
 /*-----------------*/
 nav{
@@ -62,8 +65,62 @@ nav{
 }
 /*------------------------------------------------------------------------------------*/
 .contenido#main{
-    padding-left: 8.333333%;
-    padding-right: 8.333333%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.sideBar{
+    width: 15%;
+    color: rgb(221, 221, 221);
+}
+.playlist{
+    margin-top: 7px;
+}
+.title{
+    width: 100%;
+    color: #FFF;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.content{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+}
+.aboutMe{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(221, 221, 221);
+    display: flex;
+    width: 100%;
+}
+.foto{
+    height: 500px;
+    border-radius: 30px;
+}
+.aboutMeTxt{
+    width: 100%;
+    margin-left: 90px;
+}
+
+.enlace{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(221, 221, 221);
+}
+.netContent{
+    color: rgb(221, 221, 221);
+}
+
+.degree{
+    margin-top: 30px;
+}
+.automatization{
+    color: rgb(221, 221, 221);
 }
 /*----------------------------*/
 footer{
@@ -71,9 +128,6 @@ footer{
     height: 50px;
     background-color: #64758C;
     display: flex;
-}
-footer> a{
-    width: 100%;
 }
 .link{
     width: 16.6666%;
