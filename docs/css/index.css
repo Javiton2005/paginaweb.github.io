@@ -70,7 +70,7 @@ nav{
     display: flex;
 }
 .sideBar{
-    width: 15%;
+    width: 20%;
     color: rgb(221, 221, 221);
 }
 .playlist{
@@ -121,6 +121,14 @@ nav{
 }
 .automatization{
     color: rgb(221, 221, 221);
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+.contenedor{
+    display: flex;
 }
 /*----------------------------*/
 footer{
